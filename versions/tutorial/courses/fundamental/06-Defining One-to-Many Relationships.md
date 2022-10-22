@@ -148,7 +148,7 @@ By default, every dependent must have a principal, but EF Core does not enforce 
 
 ```csharp
 // Specify the FK property is nullable
-public int? AuthorId { get; set; }
+    public int? AuthorId { get; set; }
 
 // Map the FK property as not required
     .HasForeignKey(b => b.AuthorId)
